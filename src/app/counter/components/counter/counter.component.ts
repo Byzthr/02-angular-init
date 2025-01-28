@@ -11,7 +11,6 @@ import { Component } from "@angular/core";
     <button (click)="increaseValueBy(1)">+1</button>
     <button (click)="resetValue()">Reset</button>
     <button (click)="increaseValueBy(-1)">-1</button>
-    <hr>
 `,
     standalone: false
 })
